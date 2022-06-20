@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Booki</title>
 </head>
@@ -194,41 +194,59 @@
             <div class="activities-picture">
                 <figure>
                     <a href="#">
-                    <img class="xlarge-picture" src="images/activites/1_xlarge/VieuxPort.jpg" alt="port">
-                    <h4>Vieux Port</h4>
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="images/activites/4_small/Port.jpg">
+                            <source media="(max-width: 992px)" srcset="images/activites/3_medium/Port.jpg">
+                            <img class="xlarge-picture" src="images/activites/1_xlarge/Port.jpg" alt="port">
+                        </picture>
+                        <h4>Vieux Port</h4>
                     </a>
                 </figure>
                 <div class="collum">
                 <figure>
                     <a href="#">
-                    <img class="large-picture" src="images/activites/2_large/Fort.jpg" alt="fort">
-                    <h4>Fort de Pomègues</h4>
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="images/activites/4_small/Fort.jpg">
+                            <source media="(max-width: 992px)" srcset="images/activites/3_medium/Fort.jpg">
+                            <img class="large-picture" src="images/activites/2_large/Fort.jpg" alt="fort">
+                        </picture>
+                        <h4>Fort de Pomègues</h4>
                     </a>
                 </figure>
                 <figure id="small">
                     <a href="#">
-                    <img class="small-picture" src="images/activites/4_small/IlesDuFrioul.jpg" alt="Iles">
+                        <img class="small-picture" src="images/activites/4_small/IlesFrioul.jpg" alt="Iles">
                     <h4>Îles du Frioul</h4>
                     </a>
                 </figure>
                 </div>
                 <figure>
                     <a href="#">
-                    <img class="xlarge-picture" src="images/activites/1_xlarge/ParcCalanques.jpg" alt="Calanques">
-                    <h4>Parc National des Calanques</h4>
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="images/activites/4_small/Calanques.jpg">
+                            <source media="(max-width: 992px)" srcset="images/activites/3_medium/Calanques.jpg">
+                            <img class="xlarge-picture" src="images/activites/1_xlarge/Calanques.jpg" alt="Calanques">
+                        </picture>
+                        <h4>Parc National des Calanques</h4>
                     </a>
                 </figure>
                 <div class="collum">
                 <figure id="medium">
                     <a href="#">
-                    <img class="medium-picture" src="images/activites/3_medium/notreDameLaGarde.jpg" alt="Basilique">
-                    <h4>Notre-dame-de-la-Garde</h4>
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="images/activites/4_small/Basilique.jpg">
+                            <img class="medium-picture" src="images/activites/3_medium/Basilique.jpg" alt="Basilique">
+                        </picture>
+                        <h4>Notre-dame-de-la-Garde</h4>
                     </a>
                 </figure>
                 <figure>
                     <a href="#">
-                    <img class="medium-picture" src="images/activites/3_medium/ParcLongchamps.jpg" alt="Parc">
-                    <h4>Parc Longchamps</h4>
+                        <picture>
+                            <source media="(max-width: 500px)" srcset="images/activites/4_small/Parc.jpg">
+                            <img class="medium-picture" src="images/activites/3_medium/Parc.jpg" alt="Parc">
+                        </picture>
+                        <h4>Parc Longchamps</h4>
                     </a>
                 </figure>
                 </div>

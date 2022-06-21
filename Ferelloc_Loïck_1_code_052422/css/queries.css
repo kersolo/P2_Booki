@@ -1,0 +1,382 @@
+
+                        /* ******************************DESKTOP****************************** */
+
+@media screen and (min-width: 992px)
+{
+    #phone
+    {
+        display: none;
+    }
+    #filters_title
+    {
+        float: left;
+    }
+}
+
+            /*********************************/
+
+@media (min-width: 992px) and (max-width: 1052px)
+{
+    #filters
+    {
+        font-size: medium;
+        padding: 0;
+    }
+}
+
+            /*********************************/
+
+@media (min-width: 992px) and (max-width: 1250px)
+{
+    #most_popular .stars
+    {
+        margin-top: 25px;
+    }
+}
+
+            /*********************************/
+
+@media (min-width: 992px) and (max-width: 1095px)
+{
+    #most_popular h3
+    {
+        margin: 0;
+    }
+}
+
+            /*********************************/
+
+@media (min-width: 992px) and (max-width: 1220px)
+{
+    #most_popular .stars
+    {
+        margin-top: 0;
+    }
+}
+
+            /*********************************/
+
+@media (min-width: 992px) and (max-width: 1245px)
+{
+    #small
+    {
+       height: 200px;
+    }
+    #medium
+    {
+        height: 240px;
+    }
+}
+
+                        /* ******************************TABLETTE****************************** */
+
+@media (min-width: 768px) and (max-width: 991.9px)
+{
+    #phone
+    {
+        display: none;
+    }
+    #filters
+    {
+        padding-left: 10px;
+        margin-top: 0px;
+    }
+    #filters_title
+    {
+        margin-top: 50px;
+    }
+    #accommodations
+    {
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #most_popular
+    {
+        width: 100%;
+        margin: 0;
+    }
+    aside
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    #accommodations h2
+    {
+        width: 80%;
+    }
+    #accommodations figure
+    {
+        width: 40vw;
+        margin: 20px;
+    }
+    #accommodations img
+    {
+        height: 150px;
+        width: 40vw;
+    }
+    #most_popular img
+    {
+        width: 35vw;
+    }
+    #most_popular figure
+    {
+        width: 80vw;
+    }
+    #activities figure
+    {
+        margin: 0;
+        margin-left: 20px;
+        margin-bottom: 40px;
+        width: auto;
+    }
+    .xlarge-picture
+    {
+        height: 250px;
+        width: 80vw;
+        object-fit: cover;
+    }
+    .large-picture
+    {
+        height: 250px;
+        width: 40vw;
+        object-fit: cover;
+    }
+    .medium-picture
+    {
+        height: 250px;
+        width: 40vw;
+        object-fit: cover;
+    }
+    .small-picture
+    {
+        height: 250px;
+        width: 40vw;
+        object-fit: cover;
+    }
+    #activities h2
+    {
+        margin-bottom: 50px;
+    }
+    .collum
+    {
+        flex-direction: row;
+    }
+    .activities-picture
+    {
+        flex-wrap: wrap;
+    }
+}
+
+                        /* ******************************MOBILE****************************** */
+
+@media screen and (max-width: 768px)
+{
+    section
+    {
+        flex-direction: column-reverse;
+    }
+    nav a:hover
+    {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
+    }
+    nav h1
+    {
+        margin-left: 40%;
+    }
+    nav a
+    {
+        padding-bottom: 10px;
+    }
+    #form
+    {
+        margin-left: -30px;
+    }
+    nav ul
+    {
+        margin-bottom: 50px;
+        width: 60%;
+    }
+    nav li
+    {
+        border-bottom: 3px solid #F2F2F2;
+        padding-bottom: 10px;
+        padding-top: 43px;
+        margin-left: -30px;
+    }
+    #herder h2
+    {
+        margin-top: 100px;
+        margin-left: -30px;
+    }
+    #herder p
+    {
+        margin-left: -30px;
+    }
+    #all-screen
+    {
+        display: none;
+    }
+    #phone
+    {
+        border-radius: 15px;
+        margin-left: -40px;
+        padding: 4px;
+    }
+    #phone i
+    {
+        background-color: #0065FC;
+        color: white;
+    }
+    #filters_title
+    {
+        margin-left: -30px;
+        margin-top: 50px;
+    }
+    #filters
+    {
+        margin-left: -80px;
+        margin-top: 0;
+    }
+    h2, p
+    {
+        margin-bottom: 20px;
+    }
+    aside
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    #accommodations
+    {
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    #accommodations figure
+    {
+        width: 80vw;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #accommodations img
+    {
+        width: 80vw;
+        height: 30vw;
+    }
+    #accommodations p
+    {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    #accommodations h3
+    {
+        font-size: medium;
+    }
+    #most_popular
+    {
+        width: 100%;
+        height: 700px;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    #most_popular h2
+    {
+        margin-left: 10px;
+    }
+    #most_popular img
+    {
+        width: 40%;
+        height: 150px;
+    }
+    #most_popular h3
+    {
+        font-size: medium;
+    }
+    #most_popular p
+    {
+        font-size: 15px;
+    }
+    .activities-picture
+    {
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 60px;
+    }
+    #activities figure
+    {
+        width: 100%;  
+    }
+    #activities img
+    {
+        height: 30vw;
+        width: 100%;
+    }
+    footer ul
+    {
+       width: 100%;
+       margin-left: -15px; 
+    }
+    footer li
+    {
+        padding: 5px;
+        font-size: medium;
+    }
+    .footer_title
+    {
+        padding-top: 40px;
+        font-size: 17px;
+    }
+}
+
+            /*********************************/
+
+@media screen and (max-width: 376px)
+{
+    #most_popular .stars
+    {
+        margin: 0;
+    }
+    #most_popular p
+    {
+        font-size: small;
+    }
+}
+
+            /*********************************/
+
+@media screen and (max-width: 320px)
+{
+    input
+    {
+        font-size: 4vw;
+    }
+    nav ul
+    {
+        flex-direction: column;
+        margin: 20px;
+        font-size: small;
+        display: none;
+    }
+    #filters
+    {
+        font-size: medium;
+    }
+    #activities
+    {
+        width: 100%;
+    }
+    #activities h4
+    {
+        font-size: medium;
+    }
+}
